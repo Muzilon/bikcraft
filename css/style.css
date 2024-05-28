@@ -4,11 +4,20 @@ body {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 ul {
-  margin: 0px;
   padding: 0px;
   list-style: none;
+}
+h1,
+ul,
+p {
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+  display: block;
 }
 .header-bg {
   background-color: #000000;
@@ -75,4 +84,13 @@ ul {
     padding: 8px 12px;
     font-size: 14px;
   }
+}
+.introducao-bg {
+  background: #000000;
+  color: #ffffff;
+}
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
 }
